@@ -1,0 +1,8 @@
+сборка приложения с настройками по умолчанию
+pyinstaller note.py
+
+сборка приложения в один файл -F
+pyinstaller -F note.py
+
+сборка приложения с настройками по умолчанию без консоли -w
+pyinstaller -F -w -i "/home/aleksey/PycharmProjects/Note" note.py
